@@ -1,0 +1,126 @@
+
+body {
+    background-color: rgb(55, 54, 54); /* Give the body a black background incase the image doesn't fill the entire window*/
+    background-repeat: no-repeat; /* Don't let the image repeat in the background */
+    background-size: cover; /* Make the image cover the background*/
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+nav a {
+    float: right; /* Put the menu on the right side of the screen */
+    color: white;
+    background-color: rgb(38, 38, 38);
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: x-large;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    /* make the text glow on mouse hover */
+    text-shadow:  1px 1px 6px greenyellow;
+    color: greenyellow;
+}
+
+h1 {
+    color: greenyellow;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+h2 {
+    font-size: xx-large;
+    text-align: left;
+    color: greenyellow;
+}
+
+p {
+    color: lightgreen;
+}
+
+input, textarea, select {
+    display: block;
+    width: 250px;
+    border-color: slategray;
+    background-color: black;
+    color: lime;
+    font-size: large;
+}
+
+input.search {
+    float: left;
+    width: 150px;
+    margin-right: 2px;
+}
+
+
+label {
+    width: 120px;
+    text-align: right;
+    color: white;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    border-color: greenyellow;
+    font-size: large;
+}
+
+input.search[type=submit] {
+    width: 100px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    border-color: greenyellow;
+    font-size: 68%;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(153, 247, 12);
+    color: black;
+}
+
+.logo {
+    opacity: 0.8;
+}
+/* Make the logo brighter on mouse hover */
+.logo:hover {
+    filter: saturate(300%);
+}
+
+.login {
+    background-color: rgb(38, 38, 38);
+    width: max-content;
+    opacity: 0.7;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin: auto;
+    top: 50px;
+    position: relative;
+}
+
+.listings {
+    background-color: rgb(38, 38, 38);
+    width: max-content;
+    opacity: 0.9;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin: auto;
+    position: relative;
+}
